@@ -18,8 +18,12 @@ body {
 
 .container {
   width: 375px;
-  margin: 10px auto;
+  margin: 0px auto;
   background: #fff;
+}
+
+section {
+  border-bottom: 20px solid #ededed;
 }
 
 .header-container {
@@ -69,6 +73,10 @@ header {
 .icons {
   width: 23px;
   margin-right: 20px;
+}
+
+.icons:hover {
+  opacity: 0.4;
 }
 
 .post-likes {
